@@ -15,6 +15,16 @@ export default {
         
 
       },
+      animation: {
+        gradient: 'gradient 5s linear infinite', // Adjust duration here
+      },
+      keyframes: {
+        gradient: {
+          '0%': { backgroundPosition: '0%' },
+          '50%': { backgroundPosition: '100%' },
+          '100%': { backgroundPosition: '0%' },
+        },
+      },
     },
   },
   plugins: [],

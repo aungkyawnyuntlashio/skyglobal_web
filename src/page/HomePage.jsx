@@ -18,7 +18,7 @@ import AI from './../assets/images/DashIcons/Bot.png';
 const HomePage = () => {
   return (
     
-    <div className='h-[55%] w-screen'>
+    <div className='h-[70%] md:h-[55%] w-screen'>
         <div class="relative bg-gradient-to-br from-blue-500 via-purple-600 to-indigo-500 h-[110%] overflow-hidden">
             {/* <!-- Wave Shape --> */}
                 <div class="absolute bottom-0 left-0 right-0">
@@ -36,7 +36,7 @@ const HomePage = () => {
                     </svg>
                 </div>
             {/* <!-- Content --> */}
-            <div className='absolute inset-0 flex items-center justify-center mx-auto'>
+            <div className='absolute inset-0 flex items-center justify-center flex-col md:flex-row mx-auto'>
 
                 <div class="flex flex-col w-[65%] items-center justify-center text-center text-txtColor px-4">
 
@@ -44,21 +44,23 @@ const HomePage = () => {
                         Bringing the World to Your Fingertips
                     </h1>
                     <p class="text-lg md:text-lg max-w-2xl mb-6">
-                    Your Trusted Partner for Global Services: Careers, Travel, Education, and Beyond.
+                        Your Trusted Partner for Global Services: Careers, Travel, Education, and Beyond.
                     </p>
                     <div class="flex space-x-4">
-                    <button class="px-6 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-txtColor font-medium">
-                        Download
-                    </button>
-                    <button class="px-6 py-2 bg-purple-800 hover:bg-purple-700 rounded-md text-txtColorfont-medium">
-                        Contact Us
-                    </button>
+                        <button class="px-8 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-txtColor font-medium">
+                            PlayStore
+                        </button>
+                        <button class="px-6 py-2 bg-purple-800 hover:bg-purple-700 rounded-md text-txtColorfont-medium">
+                            App Store
+                        </button>
                     </div>
                 </div>
 
-                <div className='w-[35%] flex text-txtColor'>
-                    <img className='w-48 rounded-lg shadow-xl border-2 border-slate-400 z-10' src={bb} alt="" />
-                    <img className='w-48 rounded-lg shadow-xl -ml-12 rotate-12' src={aa} alt="" />
+                <div className='w-full md:w-[35%] flex justify-center md:justify-normal items-center'>
+                   <div className='flex text-txtColor mt-12 md:mt-2'>
+                        <img className='w-36 md:w-48 rounded-lg shadow-xl border-2 border-slate-400 z-10' src={bb} alt="" />
+                        <img className='w-36 md:w-48 rounded-lg shadow-xl -ml-12 rotate-12' src={aa} alt="" />
+                   </div>
                 </div>
 
             </div>
@@ -67,10 +69,12 @@ const HomePage = () => {
 
         <div className='flex flex-col justify-center items-center mt-24'>
 
-            <h1 className='font-bold text-2xl'>Awesome Features</h1>
+            <h1 className="font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500">
+            Awesome Features
+            </h1>
 
             <div className='flex justify-evenly flex-wrap w-[90%] mx-auto p-10'>
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Passport}
@@ -87,7 +91,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Staff}
@@ -104,7 +108,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Boat}
@@ -121,7 +125,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Graduation}
@@ -138,7 +142,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={About}
@@ -155,7 +159,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Exchange}
@@ -172,7 +176,7 @@ const HomePage = () => {
                     </div>  
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={HomeShield}
@@ -189,7 +193,7 @@ const HomePage = () => {
                     </div>
                 </div>  
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Flight}
@@ -206,7 +210,7 @@ const HomePage = () => {
                     </div>
                 </div> 
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={AI}
@@ -223,7 +227,7 @@ const HomePage = () => {
                     </div>
                 </div> 
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-72 h-56 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={ShipWheel}
