@@ -18,8 +18,8 @@ import AI from './../assets/images/DashIcons/Bot.png';
 const HomePage = () => {
   return (
     
-    <div className='h-[70%] md:h-[55%] w-screen'>
-        <div class="relative bg-gradient-to-br from-blue-500 via-purple-600 to-indigo-500 h-[110%] overflow-hidden">
+    <div className='h-[70%] md:h-[55%] w-full mt-20'>
+        <div class="relative bg-gradient-to-br from-blue-500 via-purple-700 to-indigo-500 h-full overflow-hidden">
             {/* <!-- Wave Shape --> */}
                 <div class="absolute bottom-0 left-0 right-0">
                     <svg
@@ -36,22 +36,22 @@ const HomePage = () => {
                     </svg>
                 </div>
             {/* <!-- Content --> */}
-            <div className='absolute inset-0 flex items-center justify-center flex-col md:flex-row mx-auto'>
+            <div className='absolute inset-0 flex items-center justify-center flex-col md:flex-row mt-4 mx-auto'>
 
                 <div class="flex flex-col w-[65%] items-center justify-center text-center text-txtColor px-4">
 
-                    <h1 class="text-2xl md:text-4xl font-bold mb-4">
+                    <h1 class="text-2xl md:text-4xl font-bold mb-8">
                         Bringing the World to Your Fingertips
                     </h1>
-                    <p class="text-lg md:text-lg max-w-2xl mb-6">
+                    <p class="text-lg md:text-lg max-w-2xl mb-10">
                         Your Trusted Partner for Global Services: Careers, Travel, Education, and Beyond.
                     </p>
-                    <div class="flex space-x-4">
-                        <button class="px-8 py-2 bg-blue-600 hover:bg-blue-700 rounded-md text-txtColor font-medium">
+                    <div class="flex space-x-4 -mt-2">
+                        <button class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-txtColor font-medium">
                             PlayStore
                         </button>
-                        <button class="px-6 py-2 bg-purple-800 hover:bg-purple-700 rounded-md text-txtColorfont-medium">
-                            App Store
+                        <button class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-md text-txtColor font-medium">
+                            AppStore
                         </button>
                     </div>
                 </div>
@@ -70,11 +70,11 @@ const HomePage = () => {
         <div className='flex flex-col justify-center items-center mt-24'>
 
             <h1 className="font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500">
-            Awesome Features
+                Awesome Features
             </h1>
 
-            <div className='flex justify-evenly flex-wrap w-[90%] mx-auto p-10'>
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+            <div className='flex justify-around flex-wrap w-full md:w-[90%] mx-auto p-10'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Passport}
@@ -91,7 +91,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64 h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Staff}
@@ -108,7 +108,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Boat}
@@ -125,7 +125,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Graduation}
@@ -142,7 +142,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={About}
@@ -159,7 +159,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Exchange}
@@ -176,7 +176,7 @@ const HomePage = () => {
                     </div>  
                 </div>
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={HomeShield}
@@ -193,7 +193,7 @@ const HomePage = () => {
                     </div>
                 </div>  
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={Flight}
@@ -210,7 +210,7 @@ const HomePage = () => {
                     </div>
                 </div> 
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={AI}
@@ -227,7 +227,7 @@ const HomePage = () => {
                     </div>
                 </div> 
 
-                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-64 h-52 mt-10 mx-2'>
+                <div className='border-2 border-slate-200 bg-slate-100 rounded-md w-full md:w-64  h-52 mt-10 mx-2'>
                     <div className='flex flex-col px-6 py-4'>
                         <img
                             src={ShipWheel}
@@ -243,6 +243,157 @@ const HomePage = () => {
                         
                     </div>
                 </div> 
+            </div>
+        </div>
+
+        <div>
+            <div className='flex justify-center items-center flex-col w-[75%] mx-auto my-36'>
+                <h1 className='font-bold text-4xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500 mt-20'>
+                    Welcome to Sky Global Multi Services
+                </h1>
+                <p className='mt-12 font-semibold text-justify text-slate-400'>
+                    Sky Global Multi Services is your one-stop solution for a wide range of global and local services, tailored to meet your personal and professional needs. From career advancement to home care, we provide innovative, AI-powered tools and comprehensive service offerings to empower individuals and families worldwide. Explore the future of convenience and functionality with our multi-dimensional application and website.
+                </p>
+            </div>
+            <div className='w-[75%] mx-auto mt-20'>
+                <div className='grid grid-cols-[4fr,1fr] gap-4 mb-20'>
+                    <div className='py-10'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            1. Global Careers Hub
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            Explore endless career opportunities across the globe. Our platform connects job seekers with employers in various industries, providing a seamless experience for building successful careers worldwide.
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div className='grid grid-cols-[1fr,4fr] gap-4 mb-20'>
+                    <div></div>
+                    <div className='py-10 text-right'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            2. Education Careers Hub
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            Take your teaching career to the next level with:
+                            Job listings in the education sector.
+                            Resources for professional development.
+                            Connections to global educational institutions.
+                        </p>
+                    </div>
+                </div>
+                <div className='grid grid-cols-[4fr,1fr] gap-4 mb-20'>
+                    <div className='py-10'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            3. Maritime Careers Hub
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>                           
+                            Embark on a fulfilling journey in the maritime industry. From ship crew roles to shore-based positions, we help connect maritime professionals with leading companies globally.
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div className='grid grid-cols-[1fr,4fr] gap-4 mb-20'>
+                    <div></div>
+                    <div className='py-10 text-right'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            4. Home Care Services
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            We understand the importance of quality care at home. Sky Global Multi Services provides a range of home care solutions, including elder care, child care, and support for individuals with special needs
+
+                        </p>
+                    </div>
+                </div>
+                <div className='grid grid-cols-[4fr,1fr] gap-4 mb-20'>
+                    <div className='py-10'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            5. Global Exchange Rate
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            Stay updated with real-time global currency exchange rates. Our user-friendly tool ensures you make informed financial decisions, whether traveling or managing international transactions.
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div className='grid grid-cols-[1fr,4fr] gap-4 mb-20'>
+                    <div></div>
+                    <div className='py-10 text-right'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            6. Flight Status Check
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            Never miss a flight update! Track real-time flight statuses for a seamless travel experience
+                        </p>
+                    </div>
+                </div>
+                <div className='grid grid-cols-[4fr,1fr] gap-4 mb-20'>
+                    <div className='py-10'>
+                        <h1 className='font-bold text-2xl text-primary  mb-8'>
+                            7. Cruise Mapper
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>
+                            Plan your next ocean adventure with ease. Cruise Mapper offers detailed information on cruise ships, itineraries, and ports of call, helping you create unforgettable travel experiences.
+                        </p>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+                <div className='grid grid-cols-[1fr,4fr] gap-4 mb-20'>
+                    <div></div>
+                    <div className='py-10 text-right'>
+                        <h1 className='font-bold text-2xl text-primary mb-8'>
+                            8. Global International Center
+                        </h1>
+                        <p className='text-slate-400 font-semibold'>                        
+                            Access resources and support tailored for international professionals, students, and businesses. From visa guidance to cultural integration, we’ve got you covered.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div className='flex justify-center items-start flex-col w-[75%] mx-auto my-10'>
+                <h1 className='font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500 mt-16'>
+                    Why Choose Sky Global Multi Services?
+                </h1>
+                <p className='mt-12 font-semibold text-justify text-slate-400'>
+                    Comprehensive Solutions: A wide range of services under one roof.
+                    Global Reach: Connecting you to opportunities and resources worldwide.
+                    User-Friendly Platform: Designed for easy navigation and accessibility.
+                    Reliable Support: Our dedicated team is here to assist you every step of the way.
+                </p>
+            </div>
+
+            <div className='flex justify-center items-start flex-col w-[75%] mx-auto my-10'>
+                <h1 className='font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500 mt-16'>
+                    Join Us Today!
+                </h1>
+                <p className='mt-4 font-semibold text-justify text-slate-400'>
+                    Whether you're looking for career advancement, reliable home care, or tools to simplify your global lifestyle, Sky Global Multi Services is here to make it happen. Explore the possibilities and achieve your goals with confidence.
+                </p>
+            </div>
+
+            <div className='flex justify-center items-start flex-col w-[75%] mx-auto my-10'>
+                <h1 className='font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500 mt-16'>
+                    Get in Touch
+                </h1>
+                <p className='mt-4 font-semibold text-justify text-slate-400'>
+                    Visit our website to learn more about our services, or contact us directly for personalized assistance. Together, let’s shape a brighter future.
+                </p>
+            </div>
+
+            <div className='w-[90%]'>
+                <h1 className='py-24 ml-14 md:ml-20 text-wrap'>
+                    © 2024–2026 Sky Global Co. Ltd. All Rights Reserved.
+                </h1>
             </div>
         </div>
     </div>
