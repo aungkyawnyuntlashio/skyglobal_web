@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 
 const MainLayout = () => {
   return (
-      <div className='h-screen w-screen'>
+      <div className=''>
             <Navbar />
             <Outlet />
       </div>

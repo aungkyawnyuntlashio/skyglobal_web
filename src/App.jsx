@@ -1,5 +1,3 @@
-import './App.css';
-
 import MainLayout from './page/components/MainLayout';
 import HomePage from './page/HomePage';
 import PrivacyPolicy from './page/PrivacyPolicy';
@@ -18,7 +16,7 @@ const router = createBrowserRouter(
 
 function App() {
     return (
-        <div className='h-screen w-screen'>
+        <div className=''>
             <RouterProvider router={router} />
         </div>
     )
