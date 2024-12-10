@@ -118,7 +118,7 @@ const HomePage = () => {
             <div className='relative inset-0'>
 
                 <Carousel
-                    showArrows={false}
+                    showArrows={true}
                     showStatus={false}
                     showThumbs={false}
                     swipeable={true}
@@ -126,7 +126,7 @@ const HomePage = () => {
                     transitionTime={1000}
                     autoPlay
                     infiniteLoop
-                    className='carousel-container w-full h-full custom-fade-carousel'
+                    className='carousel-container w-full h-full'
                 >
                     <div className="relative bg-gradient-to-br from-blue-500 via-purple-700 to-indigo-500 h-full pt-20 overflow-hidden">
                         {/* <!-- Wave Shape --> */}
@@ -143,6 +143,7 @@ const HomePage = () => {
                                     d="M0,128L60,154.7C120,181,240,235,360,256C480,277,600,267,720,234.7C840,203,960,149,1080,154.7C1200,160,1320,224,1380,256L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
                                 ></path>
                                 </svg>
+                                <div className='w-full h-[4px] bg-white absolute bottom-0'></div>
                             </div>
                         {/* <!-- Content --> */}
                         <div className='flex h-[75vh] items-center justify-center flex-col md:flex-row mx-auto'>
@@ -337,7 +338,7 @@ const HomePage = () => {
                 </Carousel>
         </div>
 
-        <div className='flex flex-col justify-center items-center py-24'>
+        <div className='flex flex-col justify-center items-center mt-24 mb-12'>
 
             <h1 className="font-bold text-3xl bg-gradient-to-r from-blue-600 via-purple-500 to-cyan-400 text-transparent bg-clip-text bg-[length:200%] animate-gradient duration-500" data-aos="zoom-in">
                 Awesome Features
@@ -347,7 +348,7 @@ const HomePage = () => {
                 { cardData.map((data,index)=>{
 
                     return(
-                        <div key={index} className='border-2 border-slate-200 shadow-md rounded-md w-full md:w-64 h-52 mt-10 mx-2' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={index * 100}>
+                        <div key={index} className='w-full md:w-64 h-52 mt-10 mx-2 relative' data-aos="fade-up" data-aos-duration="1000" data-aos-delay={index * 100}>
                             <div className='flex flex-col px-6 py-4'>
                                 <img src={data.imageUrl} alt={data.title} className='w-8 mt-2 mb-2' />
                                 <h1 className='font-bold text-lg my-auto'>
@@ -358,6 +359,7 @@ const HomePage = () => {
                                 </p>
                                 
                             </div>
+                            {/* <div className='absolute z-40 w-[2%] bg-gradient-animation h-[2px] bg-black border-animation'></div> */}
                         </div>
 
                     )
