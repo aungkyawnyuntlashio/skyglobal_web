@@ -10,7 +10,7 @@ import Graduation from './../assets/images/DashIcons/Graduation Cap.png';
 import Passport from './../assets/images/DashIcons/Passport.png';
 import Staff from './../assets/images/DashIcons/Staff.png';
 import HomeShield from './../assets/images/DashIcons/Smart Home Shield.png';
-import Exchange from './../assets/images/DashIcons/Exchange.png';
+import Exchange from './../assets/images/DashIcons/exchange.png';
 import Flight from './../assets/images/DashIcons/airplane-take-off.png';
 import ShipWheel from './../assets/images/DashIcons/ship-wheel.png';
 import AI from './../assets/images/DashIcons/Bot.png';
