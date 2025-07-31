@@ -9,10 +9,11 @@ const Footer = () => {
                 <div className="text-center md:text-left">
                     <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
                     <p className="mb-2">Sky Global Services</p>
-                    <p className="mb-2">123 International Way</p>
-                    <p className="mb-2">Global City, Earth 45678</p>
+                    <p className="mb-2">20/26 Bangkok horizon Sathon soi Naradhiswas 14</p>
+                    <p className="mb-2">Thung wat don
+                        Sathon</p>
                     <p className="mb-2">Email: <a href="mailto:support@skyglobal.com" className="underline hover:text-gray-300">support@skyglobal.com</a></p>
-                    <p>Phone: <a href="tel:+1234567890" className="underline hover:text-gray-300">+1 (234) 567-890</a></p>
+                    <p>Phone: <a href="tel:+66633864087" className="underline hover:text-gray-300">+66 633 864 087</a></p>
                 </div>
 
                 {/* Social Media / Additional Links - optional */}
