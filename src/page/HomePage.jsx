@@ -11,7 +11,7 @@ import Graduation from './../assets/images/DashIcons/Graduation Cap.png';
 import Passport from './../assets/images/DashIcons/Passport.png';
 import Staff from './../assets/images/DashIcons/Staff.png';
 import HomeShield from './../assets/images/DashIcons/Smart Home Shield.png';
-import Exchange from './../assets/images/DashIcons/Exchange.png';
+// import Exchange from './../assets/images/DashIcons/Exchange.png';
 import Flight from './../assets/images/DashIcons/airplane-take-off.png';
 import ShipWheel from './../assets/images/DashIcons/ship-wheel.png';
 import AI from './../assets/images/DashIcons/Bot.png';
@@ -67,7 +67,7 @@ const cardData = [
         id: 6,
         title: "Global Exchange Rate",
         description: "Real-Time Rates, Right at Your Fingertips.",
-        imageUrl: Exchange
+        imageUrl: ExchangeRate
       },
       {
         id: 7,
@@ -467,7 +467,7 @@ const HomePage = () => {
                         <img src={ExchangeRate} alt="" style={{ width: "280px", height: "280px" }} className='ml-6' />
                         <div>
                             <div className='flex items-center mb-8'>
-                                <img src={Exchange} className='w-8 mr-4' alt="" />
+                                <img src={ExchangeRate} className='w-8 mr-4' alt="" />
                                 <h1 className='font-bold text-2xl text-[#007BFF]'>
                                     Global Exchange Rate
                                 </h1>
