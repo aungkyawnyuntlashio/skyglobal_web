@@ -31,9 +31,6 @@ import Aircraft from './../assets/images/vector/vectorTwo/undraw_aircraft_re_m05
 import Mapper from './../assets/images/vector/vectorTwo/undraw_adventure_map_hnin.svg'
 import Information from './../assets/images/vector/vectorTwo/undraw_product_teardown_re_m1pc.svg'
 
-import aa from './../assets/images/aa (1).jpg';
-import bb from './../assets/images/aa (2).jpg';
-
 
 const cardData = [
     {
