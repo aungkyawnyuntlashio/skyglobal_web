@@ -19,7 +19,7 @@ steps:
       - '--platform'
       - 'managed'
       - '--region'
-      - 'asia-east1'
+      - 'asia-southeast1'
       - '--allow-unauthenticated'
 
 images:
